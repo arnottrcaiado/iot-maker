@@ -1,0 +1,25 @@
+# Arquivos de credenciais locais. NUNCA envie este arquivo!
+chaves.h
+
+# Arquivos temporários do Arduino IDE e outros editores
+*.tmp
+*.bak
+*.local
+*~
+
+# Arquivos de compilação e executáveis
+build/
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.hex
+
+# Arquivos do PlatformIO (se você usar)
+.pio/
+.vscode/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
