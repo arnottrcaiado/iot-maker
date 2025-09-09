@@ -30,8 +30,8 @@ O ThingSpeak é a plataforma IoT que vamos usar para receber e exibir os dados d
 2.  No painel principal, clique em **Channels** \> **My Channels** \> **New Channel**.
 3.  Preencha os campos do novo canal:
       * **Name:** `Monitoramento de Clima` (ou um nome de sua escolha).
-      * **Field 1:** `Temperatura`.
-      * **Field 2:** `Umidade`.
+      * **Field 1:** `Umidade`.
+      * **Field 2:** `Temperatura`.
 4.  Clique em **Save Channel**.
 5.  Vá para a aba **API Keys** e anote as chaves que precisaremos no código:
       * **Channel ID:** O número de identificação do seu canal.
@@ -93,8 +93,10 @@ Copie o código abaixo e cole no seu Arduino IDE. **Lembre-se de substituir `SEU
 
 // --- Configurações do ThingSpeak ---
 #define POSTING_INTERVAL_MS 30000        // Intervalo (em ms) entre envios de dados (30 segundos).
-#define THINGSPEAK_FIELD_TEMP 1          // Campo do canal ThingSpeak para enviar a temperatura.
-#define THINGSPEAK_FIELD_HUMI 2          // Campo do canal ThingSpeak para enviar a umidade.
+
+#define THINGSPEAK_FIELD_HUMI 1          // Campo do canal ThingSpeak para enviar a umidade.
+#define THINGSPEAK_FIELD_TEMP 2          // Campo do canal ThingSpeak para enviar a temperatura.
+
 #define HTTP_STATUS_OK 200               // Código de status HTTP para uma requisição bem-sucedida.
 
 // --- Objetos Globais ---
