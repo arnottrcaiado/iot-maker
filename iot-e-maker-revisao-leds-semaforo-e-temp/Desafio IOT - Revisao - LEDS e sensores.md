@@ -1,7 +1,8 @@
 # Desafio IoT & Maker: Fundamentos Elétricos e Iluminação Inteligente com Arduino
 
 **Público-alvo:** Alunos de Análise e Desenvolvimento de Sistemas.
-**Duração Máxima Sugerida:** 100 minutos.
+
+**Duração:** 100 minutos.
 
 **Objetivo Geral:** Revisar e consolidar princípios elétricos básicos (tensão, corrente, resistência), ligações em protoboard, e aplicar esses conceitos em projetos de IoT com Arduino e componentes fundamentais (LEDs e, opcionalmente, sensores).
 
@@ -43,7 +44,7 @@ Ligue um LED vermelho na protoboard e ao Arduino. Calcule e utilize o resistor c
 
 #### **Desafio 1.2:** Pisca-Pisca (Blink)
 
-Modifique o código para que o LED vermelho pisque a cada $1$ segundo (fique aceso por 1000ms e apagado por 1000ms).
+Modifique o código para que o LED vermelho pisque a cada 1 segundo (fique aceso por 1000ms e apagado por 1000ms).
 
 ### Nível 2: O Semáforo Simples (Saídas Múltiplas e Lógica)
 
@@ -56,7 +57,7 @@ Modifique o código para que o LED vermelho pisque a cada $1$ segundo (fique ace
 
 #### **Desafio 2.1:** Semáforo Básico
 
-Ligue mais dois LEDs (verde e amarelo) nas portas digitais **$12$** e **$11$**, respectivamente. O código deve simular o ciclo de um semáforo (Verde -> Amarelo -> Vermelho -> Verde...), com a seguinte temporização:
+Ligue mais dois LEDs (verde e amarelo) nas portas digitais **12** e **11**, respectivamente. O código deve simular o ciclo de um semáforo (Verde -> Amarelo -> Vermelho -> Verde...), com a seguinte temporização:
 
 1.  **Verde:** 4 segundos
 2.  **Amarelo:** 1$ segundo
